@@ -1,12 +1,13 @@
 {
     "name": "school",
+
     "version": "1.0.0",
     "engines": {
       "node": "16.14.2"
     },
   
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./bin/www"
     
   },
   "dependencies": {
