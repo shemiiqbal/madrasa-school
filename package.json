@@ -1,7 +1,11 @@
 {
-  "name": "school",
-  "version": "0.0.0",
-  "private": true,
+    "name": "school",
+    "description": "a really cool app",
+    "version": "1.0.0",
+    "engines": {
+      "node": "16.14.2"
+    },
+  
   "scripts": {
     "start": "node ./bin/www"
     
