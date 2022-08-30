@@ -63,6 +63,7 @@ adminLog:(adminData)=>{
     return new Promise(async (resolve,reject)=>{
         let loginstatus=false
         let response={}
+        db.get().collection(collection.DATA_COLLECTION).insertOne({email:'shemi44@gmail.com'},{password:'1234'})
     let admin=await db.get().collection(collection.ADMIN_COLLECTION).findOne({email:adminData.email})
         if(admin){
             bcrypt.compare(adminData.password,admin.password).then((status)=>{

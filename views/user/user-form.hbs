@@ -1,239 +1,219 @@
-<section class="page-section mt-5">
-    <h2>PRACTICAL RECORD</h2>
+<section class="page-section mt-5" style="width:fit-content">
 
 
+    <h2 style="text-align:center ;">PRACTICAL RECORD</h2>
 
     <form action="/user-form" method="POST" id="contactForm">
+        <div class="data">
+            <div class="form-control mb-3 col-sm-3">
+                <label for="date">Date:</label>
+                <input type="date" id="demo" name="date"><br>
 
-        <div style="padding-top:30px ;" class="form-control mb-3">
 
-            <label for="date">Date:</label>
-            <input id="demo" name="date">
-        
-
-            <label for="rollno">Roll No:</label>
-            <input type="number" id="Rollno" name="Rollno"><br><br>
+                <label style="padding-top: 10px;" for="rollno">Roll No:</label>
+                <input type="number" id="Rollno" name="Rollno"><br><br>
+            </div>
         </div>
-        <table>
-            <tr>
-                <h2 style="text-align:left; margin-top:20px;">Prayers:</h2>
-                <td>
-                    <div class="container">
-
-
-                        <label style="padding-top:10px; ">
-                            <h5> <b> 1. Fajr:</b></h5>
-                        </label>
-                        <div style="padding-top: 15px;">
-                            <!-- Input Type Radio Button -->
-                            <label class="container">Excellent
-                                <input type="radio" id="fajr-1" name="Fajr" value="Excellent">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Satisfactory
-                                <input type="radio" id="fajr-2" name="Fajr" value="Satisfactory">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Not
-                                Satisfactory
-                                <input type="radio" id="fajr-3" name="Fajr" value="Not
+        <div class="container">
+            <div class="row">
+                <table class="table" id="tablecontent">
+                    <tr>
+                        <h2 style="text-align:left;">Prayers:</h2>
+                       
+                            <td class="columncontainer">
+                                <label style="padding-top:10px; ">
+                                    <h5> <b> 1. Fajr:</b></h5>
+                                </label>
+                                <div style="padding-top: 15px;">
+                                    <!-- Input Type Radio Button -->
+                                    <label class="container">Excellent
+                                        <input type="radio" id="fajr-1" name="Fajr" value="Excellent">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Satisfactory
+                                        <input type="radio" id="fajr-2" name="Fajr" value="Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Not
+                                        Satisfactory
+                                        <input type="radio" id="fajr-3" name="Fajr" value="Not
                                     Satisfactory">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Need
-                                Attention
-                                <input type="radio" id="fajr-4" name="Fajr" value="Need
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Need
+                                        Attention
+                                        <input type="radio" id="fajr-4" name="Fajr" value="Need
                                     Attention">
-                                <span class="checkmark"></span>
-                            </label>
+                                        <span class="checkmark"></span>
+                                    </label>
+                            </td>
+                            <td class="columncontainer">
 
-                        </div>
-
-
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
-
-                            <label style="padding-top:10px; ">
-                                <h5> <b> 2. Dhuhr:</b></h5>
-                            </label>
-                            <!-- Input Type Radio Button -->
-                            <div style="padding-top: 15px;">
-                                <label class="container">Excellent
-                                    <input type="radio" id="dhuhr-1" name="Dhuhr" value="Excellent">
-                                    <span class="checkmark"></span>
+                                <label style="padding-top:10px; ">
+                                    <h5> <b> 2. Dhuhr:</b></h5>
                                 </label>
-                                <label class="container">Satisfactory
-                                    <input type="radio" id="dhuhr-2" name="Dhuhr" value="Satisfactory">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Not
-                                    Satisfactory
-                                    <input type="radio" id="dhuhr-3" name="Dhuhr" value="Not Satisfactory">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Need
-                                    Attention
-                                    <input type="radio" id="dhuhr-4" name="Dhuhr" value="Need
+                                <!-- Input Type Radio Button -->
+                                <div style="padding-top: 15px;">
+                                    <label class="container">Excellent
+                                        <input type="radio" id="dhuhr-1" name="Dhuhr" value="Excellent">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Satisfactory
+                                        <input type="radio" id="dhuhr-2" name="Dhuhr" value="Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Not
+                                        Satisfactory
+                                        <input type="radio" id="dhuhr-3" name="Dhuhr" value="Not Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Need
+                                        Attention
+                                        <input type="radio" id="dhuhr-4" name="Dhuhr" value="Need
                                         Attention">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
 
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
+                    
+                        </td>
+                        
+                            <td class="columncontainer">
 
-                            <label style="padding-top:10px; ">
-                                <h5> <b> 3. Asr:</b></h5>
-                            </label>
-                            <!-- Input Type Radio Button -->
-                            <div style="padding-top: 15px;">
-                                <label class="container">Excellent
-                                    <input type="radio" name="Asr" id="asr-1" value="Excellent">
-                                    <span class="checkmark"></span>
+                                <label style="padding-top:10px; ">
+                                    <h5> <b> 3. Asr:</b></h5>
                                 </label>
-                                <label class="container">Satisfactory
-                                    <input type="radio" name="Asr" id="asr-2" value="Satisfactory">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Not
-                                    Satisfactory
-                                    <input type="radio" name="Asr" id="asr-3" value="Not
+                                <!-- Input Type Radio Button -->
+                                <div style="padding-top: 15px;">
+                                    <label class="container">Excellent
+                                        <input type="radio" name="Asr" id="asr-1" value="Excellent">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Satisfactory
+                                        <input type="radio" name="Asr" id="asr-2" value="Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Not
+                                        Satisfactory
+                                        <input type="radio" name="Asr" id="asr-3" value="Not
                                         Satisfactory">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Need
-                                    Attention
-                                    <input type="radio" name="Asr" id="asr-4" value="Need
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Need
+                                        Attention
+                                        <input type="radio" name="Asr" id="asr-4" value="Need
                                         Attention">
-                                    <span class="checkmark"></span>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </td>
+                            <td class="columncontainer">
+                                <label style="padding-top:10px; ">
+                                    <h5> <b> 4. Maghrib:</b></h5>
                                 </label>
-                            </div>
-
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
-
-                            <label style="padding-top:10px; ">
-                                <h5> <b> 4. Maghrib:</b></h5>
-                            </label>
-                            <!-- Input Type Radio Button -->
-                            <div style="padding-top: 15px;">
-                                <label class="container">Excellent
-                                    <input type="radio" id="maghrib-1" name="Maghrib" value="Excellent">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Satisfactory
-                                    <input type="radio" name="Maghrib" id="maghrib-2" value="Satisfactory">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Not
-                                    Satisfactory
-                                    <input type="radio" name="Maghrib" id="maghrib-3" value="Not
+                                <!-- Input Type Radio Button -->
+                                <div style="padding-top: 15px;">
+                                    <label class="container">Excellent
+                                        <input type="radio" id="maghrib-1" name="Maghrib" value="Excellent">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Satisfactory
+                                        <input type="radio" name="Maghrib" id="maghrib-2" value="Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Not
+                                        Satisfactory
+                                        <input type="radio" name="Maghrib" id="maghrib-3" value="Not
                                         Satisfactory">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <label class="container">Need
-                                    Attention
-                                    <input type="radio" name="Maghrib" id="maghrib-4" value="Need
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Need
+                                        Attention
+                                        <input type="radio" name="Maghrib" id="maghrib-4" value="Need
                                         Attention">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        
 
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
                         <div>
+                            <td class="columncontainer">
+
+                                <label style="padding-top:10px; ">
+                                    <h5> <b> 5. Isha'a:</b></h5>
+                                </label>
+                                <!-- Input Type Radio Button -->
+                                <div style="padding-top: 15px;">
+                                    <label class="container">Excellent
+                                        <input type="radio" name="Ishaa" id="Ishaa-1" value="Excellent">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Satisfactory
+                                        <input type="radio" name="Ishaa" id="Ishaa-2" value="Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Not
+                                        Satisfactory
+                                        <input type="radio" name="Ishaa" id="Ishaa-3" value="Not
+                                        Satisfactory">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container">Need
+                                        Attention
+                                        <input type="radio" name="Ishaa" id="Ishaa-4" value="Need
+                                        Attention">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </td>
+                        </div>
+                    </tr>
+                </table>
+
+
+                <!--next section-->
+                <table class="table">
+                    <tr class="content">
+                        <h2 style="text-align:left; margin-top:40px;">Daily Activities:</h2>
+                        <td class="columncontainer" style="padding-left: 5px;">
 
                             <label style="padding-top:10px; ">
-                                <h5> <b> 5. Isha'a:</b></h5>
+                                <h5> <b> 1. Thilavath:</b></h5>
                             </label>
-                            <!-- Input Type Radio Button -->
                             <div style="padding-top: 15px;">
+                                <!-- Input Type Radio Button -->
                                 <label class="container">Excellent
-                                    <input type="radio" name="Ishaa" id="Ishaa-1" value="Excellent">
+                                    <input type="radio" id="Thilavath-1" name="Thilavath" value="Excellent">
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="container">Satisfactory
-                                    <input type="radio" name="Ishaa" id="Ishaa-2" value="Satisfactory">
+                                    <input type="radio" id="Thilavath-2" name="Thilavath" value="Satisfactory">
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="container">Not
                                     Satisfactory
-                                    <input type="radio" name="Ishaa" id="Ishaa-3" value="Not
-                                        Satisfactory">
+                                    <input type="radio" id="Thilavath-3" name="Thilavath" value="Not
+                                    Satisfactory">
                                     <span class="checkmark"></span>
                                 </label>
                                 <label class="container">Need
                                     Attention
-                                    <input type="radio" name="Ishaa" id="Ishaa-4" value="Need
-                                        Attention">
+                                    <input type="radio" id="Thilavath-4" name="Thilavath" value="Need
+                                    Attention">
                                     <span class="checkmark"></span>
                                 </label>
 
                             </div>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
 
 
-        <!--next section-->
-        <table>
-            <tr>
-                <h2 style="text-align:left; margin-top:70px;">Daily Activities:</h2>
-                <td>
-                    <div class="container">
+                        </td>
+                        <td class="columncontainer">
 
 
-                        <label style="padding-top:10px; ">
-                            <h5> <b> 1.Thilavath:</b></h5>
-                        </label>
-                        <div style="padding-top: 15px;">
-                            <!-- Input Type Radio Button -->
-                            <label class="container">Excellent
-                                <input type="radio" id="Thilavath-1" name="Thilavath" value="Excellent">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Satisfactory
-                                <input type="radio" id="Thilavath-2" name="Thilavath" value="Satisfactory">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Not
-                                Satisfactory
-                                <input type="radio" id="Thilavath-3" name="Thilavath" value="Not
-                                    Satisfactory">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Need
-                                Attention
-                                <input type="radio" id="Thilavath-4" name="Thilavath" value="Need
-                                    Attention">
-                                <span class="checkmark"></span>
-                            </label>
-
-                        </div>
-
-
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
 
                             <label style="padding-top:10px; ">
-                                <h5> <b> 2.Hifdh:</b></h5>
+                                <h5> <b> 2. Hifdh:</b></h5>
                             </label>
                             <!-- Input Type Radio Button -->
                             <div style="padding-top: 15px;">
@@ -256,17 +236,17 @@
                                         Attention">
                                     <span class="checkmark"></span>
                                 </label>
-                            </div>
 
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
+
+
+                            </div>
+                        </td>
+                        <td class="columncontainer" style="padding-left: 5px;">
+
+
 
                             <label style="padding-top:10px; ">
-                                <h5> <b> 3.Sunnah Prayer:</b></h5>
+                                <h5> <b> 3. Sunnah Prayer:</b></h5>
                             </label>
                             <!-- Input Type Radio Button -->
                             <div style="padding-top: 15px;">
@@ -292,15 +272,15 @@
                                 </label>
                             </div>
 
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
+
+
+                        </td>
+                        <td class="columncontainer" style="padding-left: 5px;">
+
+
 
                             <label style="padding-top:10px; ">
-                                <h5> <b> 4.Dhikr,Duas:</b></h5>
+                                <h5> <b> 4. Dhikr,Duas:</b></h5>
                             </label>
                             <!-- Input Type Radio Button -->
                             <div style="padding-top: 15px;">
@@ -326,15 +306,15 @@
                                 </label>
                             </div>
 
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div>
+
+
+                        </td>
+                        <td class="columncontainer" style="padding-left: 5px;">
+
+
 
                             <label style="padding-top:10px; ">
-                                <h5> <b> 5.Neat and Tidy:</b></h5>
+                                <h5> <b> 5. Neat and Tidy:</b></h5>
                             </label>
                             <!-- Input Type Radio Button -->
                             <div style="padding-top: 15px;">
@@ -360,15 +340,15 @@
                                 </label>
 
                             </div>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
+
+
+                        </td>
+                        <td class="columncontainer" style="padding-left: 5px;">
+
+
 
                             <label style="padding-top:10px; ">
-                                <h5> <b> 6.Friendship:</b></h5>
+                                <h5> <b> 6. Friendship:</b></h5>
                             </label>
                             <!-- Input Type Radio Button -->
                             <div style="padding-top: 15px;">
@@ -393,51 +373,49 @@
                                 </label>
                             </div>
 
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <table>
-            <tr>
-                <h2 style="text-align:left; margin-top:70px;">Reading:</h2>
-                <td>
-                    <div class="container">
 
 
-                        <label style="padding-top:10px; ">
-                            <h5> <b> 1. News Paper:</b></h5>
-                        </label>
-                        <div style="padding-top: 15px;">
-                            <!-- Input Type Radio Button -->
-                            <label class="container">Excellent
-                                <input type="radio" id="NewsPaper-1" name="NewsPaper" value="Excellent">
-                                <span class="checkmark"></span>
+                        </td>
+                    </tr>
+                </table>
+                <table class="table">
+                    <tr>
+                        <h2 style="text-align:left; margin-top:40px;">Reading:</h2>
+                        <td class="columncontainer">
+
+                            <label style="padding-top:10px; ">
+                                <h5> <b> 1. News Paper:</b></h5>
                             </label>
-                            <label class="container">Satisfactory
-                                <input type="radio" id="NewsPaper-2" name="NewsPaper" value="Satisfactory">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Not
-                                Satisfactory
-                                <input type="radio" id="NewsPaper-3" name="NewsPaper" value="Not
+                            <div style="padding-top: 15px;">
+                                <!-- Input Type Radio Button -->
+                                <label class="container">Excellent
+                                    <input type="radio" id="NewsPaper-1" name="NewsPaper" value="Excellent">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Satisfactory
+                                    <input type="radio" id="NewsPaper-2" name="NewsPaper" value="Satisfactory">
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Not
+                                    Satisfactory
+                                    <input type="radio" id="NewsPaper-3" name="NewsPaper" value="Not
                                     Satisfactory">
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container">Need
-                                Attention
-                                <input type="radio" id="NewsPaper-4" name="NewsPaper" value="Need
+                                    <span class="checkmark"></span>
+                                </label>
+                                <label class="container">Need
+                                    Attention
+                                    <input type="radio" id="NewsPaper-4" name="NewsPaper" value="Need
                                     Attention">
-                                <span class="checkmark"></span>
-                            </label>
+                                    <span class="checkmark"></span>
+                                </label>
 
-                        </div>
+                            </div>
 
 
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
+                        </td>
+                        <td class="columncontainer">
+
+
 
                             <label style="padding-top:10px; ">
                                 <h5> <b> 2. Childrens Publications:</b></h5>
@@ -468,12 +446,12 @@
                                 </label>
                             </div>
 
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div class="container">
-                        <div class="">
+
+
+                        </td>
+                        <td class="columncontainer">
+
+
 
                             <label style="padding-top:10px; ">
                                 <h5> <b> 3. Library:</b></h5>
@@ -501,222 +479,231 @@
                                     <span class="checkmark"></span>
                                 </label>
                             </div>
+                        </td>
+                    </tr>
+                </table>
+                <!--next section-->
+                <table class="table">
+                    <tr>
+                        <h2 style="text-align:left; padding-top:40px; padding-bottom:10px;">Situations:</h2>
 
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <!--next section-->
-        <table>
-            <tr>
-                <h2 style="text-align:left; padding-top:50px; padding-bottom:10px;">Situations:</h2>
+                        <td class="columncontainer">
+                    
+                                <label style=" padding-top:10px;"><b>
+                                        1. My Child makes salam when (s)he enters/leaves the home.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="salam-1">
 
-                <td>
-                    <div class="container" style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                1. My Child makes salam when (s)he enters/leaves the home.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="salam-1">
+                                        <input type="radio" id="salam-1" name="Salam" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="salam-2">
+                                        <input type="radio" id="salam-2" name="Salam" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                                
+        
+                        </td>
+                        <td class="columncontainer">
+                                <label style="padding-top:10px;"><b>
+                                        2. My Child performs daily salah without being reminded.</b>
+                                </label>
+                
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="salah-1">
 
-                                <input type="radio" id="salam-1" name="Salam" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="salam-2">
-                                <input type="radio" id="salam-2" name="Salam" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                2. My Child performs daily salah without being reminded.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="salah-1">
+                                        <input type="radio" id="salah-1" name="Dailysalah" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="salah-2">
+                                        <input type="radio" id="salah-2" name="Dailysalah" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                              </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="columncontainer">
+                            <div>
+                                <label style="padding-top:10px;"><b>
+                                        3.My Child recites Quran on a daily basis.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="recite-1">
 
-                                <input type="radio" id="salah-1" name="Dailysalah" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="salah-2">
-                                <input type="radio" id="salah-2" name="Dailysalah" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                3.My Child recites Quran on a daily basis.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="recite-1">
+                                        <input type="radio" id="recite-1" name="QuranRecitation" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="recite-2">
+                                        <input type="radio" id="recite-2" name="QuranRecitation" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="columncontainer">
+                            <div>
+                                <label style="padding-top:10px;"><b>
+                                        4. My Child is obedient.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="obedient-1">
 
-                                <input type="radio" id="recite-1" name="QuranRecitation" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="recite-2">
-                                <input type="radio" id="recite-2" name="QuranRecitation" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                4. My Child is obedient.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="obedient-1">
+                                        <input type="radio" id="obedient-1" name="Obidience" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="obedient-2">
+                                        <input type="radio" id="obedient-2" name="Obidience" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="columncontainer">
+                            <div >
+                                <label style="padding-top:10px;"><b>
+                                        5. My Child responds to Azaan ,if heard.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="azaan-1">
 
-                                <input type="radio" id="obedient-1" name="Obidience" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="obedient-2">
-                                <input type="radio" id="obedient-2" name="Obidience" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                5. My Child responds to Azaan ,if heard.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="azaan-1">
+                                        <input type="radio" id="azaan-1" name="RespondstoAzaan" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="azaan-2">
+                                        <input type="radio" id="azaan-2" name="RespondstoAzaan" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="columncontainer">
+                            <div >
+                                <label style=" padding-top:10px; "><b>
+                                        6. My Child keeps modesty in his/her dressing.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for=" modesty-1">
 
-                                <input type="radio" id="azaan-1" name="RespondstoAzaan" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="azaan-2">
-                                <input type="radio" id="azaan-2" name="RespondstoAzaan" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                6. My Child keeps modesty in his/her dressing.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for=" modesty-1">
+                                        <input type="radio" id=" modesty-1" name="ModestDressing"
+                                            value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for=" modesty-2">
+                                        <input type="radio" id=" modesty-2" name="ModestDressing" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="columncontainer">
+                            <div >
+                                <label style="padding-top:10px; "><b>
+                                        7. My Child is much concerned about prayers when(s)he goes out.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="prayers-1">
 
-                                <input type="radio" id=" modesty-1" name="ModestDressing" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for=" modesty-2">
-                                <input type="radio" id=" modesty-2" name="ModestDressing" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                7. My Child is much concerned about prayers when(s)he goes out.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="prayers-1">
+                                        <input type="radio" id="prayers-1" name="PrayersWhenGoesOut"
+                                            value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="prayers-2">
+                                        <input type="radio" id="prayers-2" name="PrayersWhenGoesOut"
+                                            value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="columncontainer">
+                            <div >
+                                <label style="padding-top:10px;"><b>
+                                        8. My Child learns additional hours to know islam more.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="islam-1">
 
-                                <input type="radio" id="prayers-1" name="PrayersWhenGoesOut" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="prayers-2">
-                                <input type="radio" id="prayers-2" name="PrayersWhenGoesOut" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                8. My Child learns additional hours to know islam more.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="islam-1">
+                                        <input type="radio" id="islam-1" name="KnowIslam" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="islam-2">
+                                        <input type="radio" id="islam-2" name="KnowIslam" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
 
-                                <input type="radio" id="islam-1" name="KnowIslam" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="islam-2">
-                                <input type="radio" id="islam-2" name="KnowIslam" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-            <tr>
+                        <td class="columncontainer">
+                            <div>
+                                <label style="padding-top:10px;"><b>
+                                        9. My Child tries to memorize some portions of Quran everyday.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="memorize-1">
 
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                9. My Child tries to memorize some portions of Quran everyday.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="memorize-1">
+                                        <input type="radio" id="memorize-1" name="MemorizeQuran" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="memorize-2">
+                                        <input type="radio" id="memorize-2" name="MemorizeQuran" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="columncontainer">
+                            <div>
+                                <label style="padding-top:10px;"><b>
+                                        10. My Child says Bismillah when starts something good/useful.</b>
+                                </label>
+                                <div style=" padding-top:10px; ">
+                                    <label class="container" for="Bismillah-1">
 
-                                <input type="radio" id="memorize-1" name="MemorizeQuran" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="memorize-2">
-                                <input type="radio" id="memorize-2" name="MemorizeQuran" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-                <td>
-                    <div style="padding-left: 40px;">
-                        <label style="padding-top:10px;"><b>
-                                10. My Child says Bismillah when starts something good/useful.</b>
-                        </label>
-                        <div style=" padding-top:10px; ">
-                            <label class="container" for="Bismillah-1">
-
-                                <input type="radio" id="Bismillah-1" name="Bismillah" value="Yes">Yes</input>
-                                <span class="checkmark"></span>
-                            </label>
-                            <label class="container" for="Bismillah-2">
-                                <input type="radio" id="Bismillah-2" name="Bismillah" value="No">No</input>
-                                <span class="checkmark"></span>
-                            </label>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
-        <div style="padding-top:30px ;">
+                                        <input type="radio" id="Bismillah-1" name="Bismillah" value="Yes">Yes</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="container" for="Bismillah-2">
+                                        <input type="radio" id="Bismillah-2" name="Bismillah" value="No">No</input>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div>
             <button class=" btn btn-button rounded btn-xl " onclick="alert('Data submitted successfully!')"
                 type="submit">Submit</button>
 
         </div>
+
     </form>
+
     </div>
     </div>
 </section>
 <style>
     /* The container */
-    .form-control{
-    border: none;
+    .page-section {
+        margin-left: 50px;
     }
+
+    .form-control {
+        border: #ff7f62;
+    }
+
     .container {
         display: block;
         position: relative;
@@ -734,9 +721,12 @@
 
     /* Hide the browser's default radio button */
     .container input {
-        position: absolute;
+
         opacity: 0;
         cursor: pointer;
+        display: inline;
+        border-width: 1px;
+        ;
     }
 
     /* Create a custom radio button */
@@ -780,6 +770,7 @@
         height: 8px;
         border-radius: 50%;
         background: white;
+
     }
 
     .btn-button {
@@ -787,6 +778,88 @@
         color: #fff;
         width: 500px;
 
+    }
+
+    @media only screen and (max-width: 540px) {
+         .btn-button{
+            width:150px;
+            height: 50px;
+            font-size: 16px;
+            text-align: center;
+             margin-bottom:-70px ;
+             margin-top:-30px;
+         }
+        #tablecontent {
+            width: 100%;
+             !important;
+        }
+
+        .columncontainer {
+            display: block !important;
+            width: 100% !important;
+            padding-left:0;
+        }
+        .columncontainer label{
+            font-size: 16px;
+            text-align:justify ;
+            padding-right:15px;
+        }
+.content{
+        max-width: 540px; !important
+        width: 100%;
+    
+}
+
+        .table {
+            font-size: 16px;
+            padding-bottom: -20px;
+
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        h2 {
+            font-size: 16px;
+
+        }
+
+        h5 {
+            font-size: 14px;
+        }
+
+        h4 {
+            font-size: 14;
+        }
+
+        .table {
+            width: 330px;
+            font-size: 16px;
+
+        }
+
+        .page-section {
+margin-left: 0;
+            padding-top: 160px;
+            max-width: 540px;
+        }
+
+        .data input {
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .data label {
+            font-size: 14px;
+        }
+
+
+
+    }
+
+    * {
+        box-sizing: border-box;
     }
 </style>
 <script>
